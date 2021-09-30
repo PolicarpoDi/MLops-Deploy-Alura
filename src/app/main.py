@@ -8,7 +8,7 @@ import os
 
 colunas = ['tamanho', 'ano', 'garagem']
 # importando o modelo criado a partir do que foi importado do colab #
-modelo = pickle.load(open('../../models/modelo.sav', 'rb'))
+modelo = pickle.load(open('../../../models/modelo.sav', 'rb'))
 
 app = Flask(__name__)
 # utiliza o os.environ.get para buscar uma variavel de ambiente 
