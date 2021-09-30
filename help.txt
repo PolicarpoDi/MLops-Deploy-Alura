@@ -1,4 +1,4 @@
-Para criar uma variavel de ambiente 
+Para criar uma variavel de ambiente sempre que houver autenticação
 
 no terminal, digite export (variavel=retorno)
 no caso, as variaveis desse projeto são BASIC_AUTH_USERNAME=Diego e BASIC_AUTH_PASSWORD=Cleiton
