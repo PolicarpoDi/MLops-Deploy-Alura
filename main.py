@@ -43,4 +43,5 @@ def cotacao():
     return jsonify(preco=preco[0])
 
 # host= 0.0.0.0 para rodar em varios ambientes #
-app.run(debug=True, host='0.0.0.0')
+if __name__ == '__main__':
+    app.run(debug=True, host='0.0.0.0')

@@ -1,0 +1,11 @@
+runtime: python # tecnologia utilizada #
+env: flex # ambiente do app env que vamos utilizar com as menores alterações possiveis #
+entrypoint: gunicorn -b :$PORT demosite.wsgi:main # como vou startar a aplicação #
+
+# informa a versão do Python utilizada #
+runtime_config:
+  python_version: 3
+
+# inclui a leitura do arquivo onde se encontra as variaveis de ambiente #
+includes:
+  - env_vars.yaml
